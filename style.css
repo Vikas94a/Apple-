@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  background-color: #f5f5f8;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.fa-brands {
+  font-size: 32px;
+}
+
+.search-bar i {
+  font-size: 22px;
+}
+.nav-item {
+  margin: 0px 62px;
+}
+
+.nav-link {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
+.section-container {
+  text-align: center;
+  background-color: #ffff;
+  color: black;
+}
+
+.section-container p span {
+  color: blue;
+}
+
+.hero-title {
+  background-image: url(./Images/Iphone-pro.jpg);
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.discription {
+  color: #f5f5f8;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.discription h4 {
+  font-size: 2em;
+}
+
+.discription p {
+  font-size: 1em;
+}
+
+.bottom-text p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #626165;
+}
+
+.learn-more {
+  background-color: #0077ed;
+  border-radius: 20px;
+  padding: 5px;
+  color: #f5f5f8;
+  margin: 5px;
+  border: transparent;
+}
+
+.iphonepro-btn {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding: 10px;
+}
+
+.Pre-order {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 5px;
+  color: #f5f5f8;
+  margin: 5px;
+  border: 1px solid blue;
+}
+
+.iphone16 {
+  background-image: url(./Images/iphone16.jpg);
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.iphone16-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone16-text p {
+  color: #010005;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch {
+  min-height: 80vh;
+  background-image: url(./Images/apple-watch.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watch img {
+  margin: 15px;
+  max-width: 240px;
+}
+
+.watch span {
+  color: #a6b7ed;
+}
+
+.watch-btn {
+  color: blue;
+}
+
+.products {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.ultra2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(./Images/promo_apple_watch_ultra2_announce__fivguuenxqmq_medium_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  min-width: 45vw;
+  margin: 7px;
+}
+
+.ultra2 img {
+  max-width: 150px;
+  margin-top: 40px;
+}
+
+.ultra2 h3 {
+  color: white;
+}
+.ultra2 span {
+  color: silver;
+}
+
+.airpods {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  min-width: 45vw;
+  margin: 7px;
+  background-image: url(Images/promo_airpods_4_announce__dvb5tea0uyye_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+}
+
+.airpods h4 {
+  color: #f5f5f8;
+  font-size: 1.9em;
+  margin: 20px;
+}
+
+.airpods p {
+  color: #f5f5f8;
+}
+
+.airpods span {
+  color: #aaaaaa;
+}
+.airpodspro {
+  background-image: url(Images/promo_airpods_pro_2_announce__egsgrnnmo3ee_small_2x.jpg);
+}
+
+.airpodspro p {
+  max-width: 210px;
+  text-align: center;
+}
+
+.airpods-max {
+  background-image: url(Images/promo_airpodsmax_announce__2srayzjz3iay_medium_2x.jpg);
+  justify-content: end;
+}
+
+.airpods-max h4 {
+  color: black;
+  margin: 2px;
+}
+
+.airpods-max p {
+  color: black;
+}
+
+.pods-btn {
+  margin-bottom: 20px;
+}
+
+.carrier-deal {
+  background-image: url(Images/promo_carrier__e0izvxwqosgi_small_2x.jpg);
+  justify-content: end;
+}
+
+.carrier-deal h4 {
+  color: black;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+
+.carrier-deal p,
+.carrier-deal span {
+  color: black;
+  font-size: 15px;
+}
+
+.btn button {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  border: transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.credit {
+  background-image: url(Images/promo_apple_card__5cm7draujpey_small_2x.jpg);
+  justify-content: start;
+}
+
+.credit img {
+  width: 70px;
+  margin-top: 30px;
+}
+
+.credit p {
+  color: black;
+  width: 190px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.credit-btn {
+  color: blue;
+}
